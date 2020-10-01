@@ -2,14 +2,14 @@ def main():
   student_name = input("Enter your Full Name: ")
   def mark_grade():
     predicted_grade = input("Enter your predicted grade (%) (numbers only): ")
-    grade_percentage = input("Enter your awarded grade (%) (numbers only): ")
     try:
-      grade_percentage = int(grade_percentage)
+      predicted_grade = int(predicted_grade)
     except ValueError:
       print("Incorrect Value. Please enter your precentages in numbers only.")
       mark_grade()
+    grade_percentage = input("Enter your awarded grade (%) (numbers only): ")
     try:
-      predicted_grade = int(predicted_grade)
+      grade_percentage = int(grade_percentage)
     except ValueError:
       print("Incorrect Value. Please enter your precentages in numbers only.")
       mark_grade()
