@@ -9,5 +9,4 @@ No packages are required to run this project.
 ```
 python3 main.py
 ```
-
 Created as part of TechTalent Academy Women in Software course.
