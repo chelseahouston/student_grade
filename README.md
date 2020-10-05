@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Student Grade Calculator
 Calculate Student Grade by using their grade percentage.
 Input their predicted grade and state if they met their grade.
